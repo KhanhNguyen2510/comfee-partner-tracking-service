@@ -1,0 +1,14 @@
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/bin/Debug/net7.0/Infrastructure.deps.json
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/bin/Debug/net7.0/Infrastructure.runtimeconfig.json
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/bin/Debug/net7.0/Infrastructure.dll
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/bin/Debug/net7.0/Infrastructure.pdb
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.AssemblyReference.cache
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfoInputs.cache
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfo.cs
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/Infrastructure.dll
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/refint/Infrastructure.dll
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/Infrastructure.pdb
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/Infrastructure.genruntimeconfig.cache
+/Users/nguyendqk/Projects/comfee-partner-tracking-service/Infrastructure/obj/Debug/net7.0/ref/Infrastructure.dll
