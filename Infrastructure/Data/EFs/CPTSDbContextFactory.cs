@@ -10,12 +10,12 @@ namespace Infrastructure.Data.EFs
         {
             IConfigurationRoot configurationRoot = new ConfigurationBuilder()
                   .SetBasePath(Directory.GetCurrentDirectory())
-                  .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariables()["ASPNETCORE_ENVIRONMENT"]}.json")
+                  .AddJsonFile($"appsettings.json")
                   .Build();
 
             DbContextOptionsBuilder<CPTSDbContext> optionsBuilder = new();
 
-            string? connectionString = configurationRoot.GetConnectionString("Comfee_PTSConnection");
+            string? connectionString = configurationRoot.GetConnectionString("ComfeePTSConnection");
 
             optionsBuilder.UseSqlServer(connectionString);
 
@@ -23,4 +23,3 @@ namespace Infrastructure.Data.EFs
         }
     }
 }
-

@@ -1,4 +1,20 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿
+const string __myAllowAllOrigins = "_myAllowAllOrigins";
+
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+// Service Cors
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(__myAllowAllOrigins, policyBuilder =>
+    {
+        policyBuilder.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .WithExposedHeaders("location", "Content-Disposition", "Link", "X-Total-Count", "X-Limit");
+    });
+});
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -1,9 +1,8 @@
-﻿using System.Reflection;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data.EFs
 {
-	public class CPTSDbContext : DbContext
+    public partial class CPTSDbContext : DbContext
     {
         public CPTSDbContext()
         {
@@ -14,10 +13,6 @@ namespace Infrastructure.Data.EFs
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
-        {
-            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-            base.OnModelCreating(builder);
-        }
+        { }
     }
 }
-
