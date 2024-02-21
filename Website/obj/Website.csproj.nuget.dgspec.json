@@ -38,6 +38,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.0.3, )"
+            },
+            "NSwag.Core": {
+              "target": "Package",
+              "version": "[14.0.3, )"
+            },
+            "NSwag.Generation": {
+              "target": "Package",
+              "version": "[14.0.3, )"
+            },
+            "ZymLabs.NSwag.FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[0.6.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,23 +1,14 @@
-﻿
-const string __myAllowAllOrigins = "_myAllowAllOrigins";
+using Website;
 
-WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
-
-// Service Cors
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(__myAllowAllOrigins, policyBuilder =>
-    {
-        policyBuilder.AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader()
-            .WithExposedHeaders("location", "Content-Disposition", "Link", "X-Total-Count", "X-Limit");
-    });
-});
-
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices(builder.Configuration);
+builder.Services.AddWebServices();
 
 var app = builder.Build();
 
@@ -41,4 +32,3 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
-

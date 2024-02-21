@@ -1,14 +1,29 @@
-﻿<Properties StartupConfiguration="{05A8036E-FC51-4A16-BF5E-DE13243D0709}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Api FirstBuild="True" PreferredExecutionTarget="/Applications/Firefox Developer Edition.app" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{949D2806-EB45-4F1C-A46D-3820BA03B46A}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Data/EFs/CPTSDbContext.cs">
+    <Files>
+      <File FileName="Infrastructure/Data/EFs/CPTSDbSet.cs" Line="6" Column="16" />
+      <File FileName="Infrastructure/Data/EFs/CPTSDbContext.cs" Line="1" Column="25" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="comfee-partner-tracking-service">
+            <Node name="Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Data" expanded="True">
+                <Node name="EFs" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Website FirstBuild="True" PreferredExecutionTarget="/Applications/Firefox Developer Edition.app" />
   <MultiItemStartupConfigurations />
 </Properties>

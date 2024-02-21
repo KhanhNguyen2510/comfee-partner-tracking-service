@@ -1,8 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "V/s5bSoYh7UVjr4GP3QCUtVL3eExV/xyvOUaPW1tKhwZIiU35navMb9YahHGbP7xHUnEZedvOtTRvay0at0WzA==",
+  "dgSpecHash": "CohyOJpQQ8IKNeMG33Yh4jg4umcC9DAQpaRuPn7xs+XU6NBk4a27a13uGY7RMxu08XWH8SijvkyPTm21/ZBddg==",
   "success": true,
   "projectFilePath": "/Users/nguyendqk/Projects/comfee-partner-tracking-service/Application/Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/nguyendqk/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/nguyendqk/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/Users/nguyendqk/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.9.0/fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
+    "/Users/nguyendqk/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/nguyendqk/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/nguyendqk/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/nguyendqk/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/nguyendqk/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/nguyendqk/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/nguyendqk/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
